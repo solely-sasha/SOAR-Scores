@@ -85,3 +85,16 @@ button {
 .scores span.green {
   color: rgba(15, 165, 15, 0.788);
 }
+
+@media (max-width: 768px) {
+  .hour-div {
+    flex-direction: column;
+  }
+  .scores {
+    margin-bottom: 10px;
+  }
+  .score-btn {
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+}
