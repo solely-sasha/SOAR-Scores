@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+form {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background-color: #abacac;
+}
+
+.scores span {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7e7a7a;
+
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.hour-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+  font-size: 24px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.hour-div label {
+  margin-left: 10px;
+  color: #f0b02f;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#totalScore {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9f1f1;
+  background-color: #6c6c6c;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.scores span.red {
+  color: rgba(228, 42, 42, 0.975);
+}
+.scores span.yellow {
+  color: yellow;
+  text-shadow: 1px 2px 3px rgba(39, 37, 37, 0.8);
+}
+.scores span.green {
+  color: rgba(15, 165, 15, 0.788);
+}
